@@ -18,7 +18,7 @@ This R package contains routines for computing the one-sided/two-sided integrate
 install.packages("survELtest")
 library(survELtest)
 ```
-### install development version
+### Install development version
 ``` r
 #install.packages("devtools")
 devtools::install_github("news11/survELtest")
