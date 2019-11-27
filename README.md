@@ -15,11 +15,12 @@ This R package contains routines for computing the one-sided/two-sided integrate
 ## Installation
 ``` r
 # install package directly 
-install.packages("tidyverse")
+install.packages("survELtest")
 library(survELtest)
-
-# install development version
-# install.packages("devtools")
+```
+### install development version
+``` r
+#install.packages("devtools")
 devtools::install_github("news11/survELtest")
 library(survELtest)
 ```
