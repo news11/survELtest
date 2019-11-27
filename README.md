@@ -13,6 +13,16 @@ This R package contains routines for computing the one-sided/two-sided integrate
 - `nocrossings` the test that excludes the possibility of crossings or alternative order- ings
 		
 ## Installation
+``` r
+# install package directly 
+install.packages("tidyverse")
+library(survELtest)
+
+# install development version
+# install.packages("devtools")
+devtools::install_github("news11/survELtest")
+library(survELtest)
+```
 
 ## Usage
 - `intELtest(data, group_order = sort(unique(data[, 3])), t1 = 0, t2 = Inf, sided = 2, nboot = 1000, wt = "p.event",
