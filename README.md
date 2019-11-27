@@ -1,6 +1,6 @@
 # survELtest  <img src='man/figures/survELtest_Logo.png' align="right" height="200" />
 This R package contains routines for computing the one-sided/two-sided integrated/maximally selected EL statistics for simultaneous testing, the one-sided/two-sided EL tests for pointwise testing, and an initial test that precedes one-sided testing to exclude the possibility of crossings or alternative orderings.
-### Data frame
+### Data Frame
 - `hepatitis` obtained by digitizing the published Kaplan-Meier curves
 - `threearm` obtained by perturbing the time-to-remission data from patients in a three-arm randomized clinical trial for	 			the treatment of major depression
 ### Function
@@ -15,7 +15,7 @@ This R package contains routines for computing the one-sided/two-sided integrate
 install.packages("survELtest")
 library(survELtest)
 ```
-### Install development version
+### Development version
 ``` r
 #install.packages("devtools")
 devtools::install_github("news11/survELtest")
