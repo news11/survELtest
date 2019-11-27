@@ -1,6 +1,6 @@
 # survELtest  <img src='man/figures/survELtest_Logo.png' align="right" height="200" />
 
-## Overview
+##Overview
 
 This R package contains routines for computing the one-sided/two-sided integrated/maximally selected EL statistics for simultaneous testing, the one-sided/two-sided EL tests for pointwise testing, and an initial test that precedes one-sided testing to exclude the possibility of crossings or alternative orderings.
 ### Data frame
