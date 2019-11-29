@@ -1,4 +1,4 @@
-# survELtest  <img src='man/figures/logo.png' align="right" height="200" />
+# survELtest  <img src='man/figures/logo_new.png' align="right" height="200" />
 This R package contains routines for computing the one-sided/two-sided integrated/maximally selected EL statistics for simultaneous testing, the one-sided/two-sided EL tests for pointwise testing, and an initial test that precedes one-sided testing to exclude the possibility of crossings or alternative orderings.
 ### Data Frame
 - `hepatitis` obtained by digitizing the published Kaplan-Meier curves
