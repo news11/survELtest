@@ -7,7 +7,7 @@ This R package contains routines for computing the one-sided/two-sided integrate
 - `intELtest` the integrated EL test
 - `supELtest` the maximally selected EL test
 - `ptwiseELtest` the pointwise EL testing
-- `nocrossings` the test that excludes the possibility of crossings or alternative order- ings
+- `nocrossings` the test that excludes the possibility of crossings or alternative orderings
 		
 ## Installation
 ``` r
