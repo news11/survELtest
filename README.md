@@ -17,7 +17,7 @@ library(survELtest)
 ```
 ### Development version
 ``` r
-#install.packages("devtools")
+#install.packages("devtools" dependencies = TRUE)
 devtools::install_github("news11/survELtest")
 library(survELtest)
 ```
