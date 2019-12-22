@@ -3,7 +3,7 @@ This R package contains routines for computing the one-sided/two-sided integrate
 ### Data Frame
 - `hepatitis` obtained by digitizing the published Kaplan-Meier curves
 - `threearm` obtained by perturbing the time-to-remission data from patients in a three-arm randomized clinical trial for	 			the treatment of major depression
-- `hazardcross` simulated survival data with crossing hazard functions from the piece- wise exponential distribution
+- `hazardcross` simulated survival data with crossing hazard functions from the piece-wise exponential distribution
 - `hazardcross_Weibull` simulated survival data with crossing hazard functions from the Weibull distribution
 ### Function
 - `intELtest` the integrated EL test
