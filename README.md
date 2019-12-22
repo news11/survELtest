@@ -57,8 +57,8 @@ The defualt value is 1000.
 - `alpha` the pre-specified significance level of the tests. The default value is 0.05.
 - `seed` the seed of random number generation in R for generating bootstrap samples needed to calculate critical values for the tests. The default value is 1011.
 - `nlimit` a number used to calculate nsplit= m/nlimit, the number of parts we split the calculation of the nboot bootstrap replications into. This can make computation faster when the number of time points m is too large. The default value for nlimit is 200.
-- `x` the result of a call to the supELtest function
-- `object` the result of a call to the supELtest function
+- `x` the result of a call to the intELtest/supELtest/ptwiseELtest/nocrossings function
+- `object` the result of a call to the intELtest/supELtest/ptwiseELtest/nocrossings function
 - `digits` significant digits to print, the default value is max(3L,getOption("digits")-3L)
 - `quiet` a logical indicating whether to reduce the amount of output or not, the default value is FALSE
 - `...` for future method
