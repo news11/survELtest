@@ -19,11 +19,11 @@
 \code{summary.nocrossings} returns a list with following components:
 \itemize{
    \item \code{call} the statement used to create the \code{nocrossings} object
-   \item \code{decision} \eqn{1} for rejection of the null hypothesis that there are crossings or alternative orderings, and \eqn{0} otherwise
+   \item \code{decision} \eqn{1} for rejection of the null hypothesis that there are crossings or alternative orderings among the survival functions, and \eqn{0} otherwise
 }
 }
 \description{
-Returns the decision for rejection of the null hypothesis that there are crossings or alternative orderings.
+Returns the decision for rejection of the null hypothesis that there are crossings or alternative orderings among the survival functions.
 }
 \examples{
 library(survELtest)
