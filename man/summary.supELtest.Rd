@@ -42,7 +42,7 @@ nocrossings(survival::Surv(hepatitis$time, hepatitis$censor)~
 ## 
 ## Decision = 1
 
-## The decision 1 means the case of crossing or alternative orderings is excluded. 
+## A decision 1 means the case of crossing or alternative orderings is excluded. 
 ## Thus, we can proceed to the one-sided test.
 
 result = supELtest(survival::Surv(hepatitis$time, hepatitis$censor)~
