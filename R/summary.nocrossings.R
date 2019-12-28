@@ -1,6 +1,6 @@
 #' Summary function for nocrossings object
 #' 
-#' @description Returns the decision for rejection of the null hypothesis that there are crossings or alternative orderings.
+#' @description Returns the decision for rejection of the null hypothesis that there are crossings or alternative orderings among the survival functions.
 #' @name summary.nocrossings
 #' @param object the result of a call to the \code{nocrossings} function
 #' @param digits significant digits to print, the default value is \code{max(3L, getOption("digits") - 3L)}
@@ -9,7 +9,7 @@
 #' @return \code{summary.nocrossings} returns a list with following components:
 #' \itemize{
 #'    \item \code{call} the statement used to create the \code{nocrossings} object
-#'    \item \code{decision} \eqn{1} for rejection of the null hypothesis that there are crossings or alternative orderings, and \eqn{0} otherwise
+#'    \item \code{decision} \eqn{1} for rejection of the null hypothesis that there are crossings or alternative orderings among the survival functions, and \eqn{0} otherwise
 #' }
 #' @seealso \code{\link{hepatitis}}, \code{\link{nocrossings}}, \code{\link{print.nocrossings}}
 #' @examples
@@ -34,4 +34,3 @@ summary.nocrossings = function(object, digits = max(3L, getOption("digits") - 3L
     result = list(call = object$call, decision = object$decision)
     invisible(result)
 }
-
