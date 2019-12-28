@@ -2,7 +2,7 @@
 % Please edit documentation in R/print.ptwiseELtest.R
 \name{print.ptwiseELtest}
 \alias{print.ptwiseELtest}
-\title{Print an ptwiseELtest object}
+\title{Print a ptwiseELtest object}
 \usage{
 \method{print}{ptwiseELtest}(x, digits = max(3L, getOption("digits") - 3L), quiet = FALSE, ...)
 }
