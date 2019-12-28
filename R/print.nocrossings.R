@@ -1,6 +1,6 @@
-#' Print an nocrossings object
+#' Print a nocrossings object
 #' 
-#' @description Returns the decision for rejection of the null hypothesis that there are crossings or alternative orderings.
+#' @description Returns the decision for rejection of the null hypothesis that there are crossings or alternative orderings among the survival functions.
 #' @name print.nocrossings
 #' @param x the result of a call to the \code{nocrossings} function
 #' @param digits significant digits to print, the default value is \code{max(3L, getOption("digits") - 3L)}
@@ -29,4 +29,3 @@ print.nocrossings = function(x, digits = max(3L, getOption("digits") - 3L), quie
   result = list(call = x$call, decision = x$decision)
   invisible(result)
 }
-
