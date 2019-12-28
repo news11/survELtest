@@ -2,7 +2,7 @@
 % Please edit documentation in R/print.supELtest.R
 \name{print.supELtest}
 \alias{print.supELtest}
-\title{Print an supELtest object}
+\title{Print a supELtest object}
 \usage{
 \method{print}{supELtest}(x, digits = max(3L, getOption("digits") - 3L), quiet = FALSE, ...)
 }
