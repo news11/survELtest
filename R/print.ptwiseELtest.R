@@ -1,4 +1,4 @@
-#' Print an ptwiseELtest object
+#' Print a ptwiseELtest object
 #' 
 #' @description Print some summary statistics for the observed uncensored time points, and the decisions, 
 #' statistics, and critical values of the pointwise EL tests at those time points.
@@ -44,4 +44,3 @@ print.ptwiseELtest = function(x, digits = max(3L, getOption("digits") - 3L), qui
   result = list(call = x$call, time_pts = x$result_dataframe$time_pts, decision = x$result_dataframe$decision, stat_ptwise = x$result_dataframe$stat_ptwise, critval = x$result_dataframe$critval)
   invisible(result)
 }
-
