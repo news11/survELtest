@@ -2,7 +2,7 @@
 % Please edit documentation in R/print.nocrossings.R
 \name{print.nocrossings}
 \alias{print.nocrossings}
-\title{Print an nocrossings object}
+\title{Print a nocrossings object}
 \usage{
 \method{print}{nocrossings}(x, digits = max(3L, getOption("digits") - 3L), quiet = FALSE, ...)
 }
@@ -16,7 +16,7 @@
 \item{...}{for future method}
 }
 \description{
-Returns the decision for rejection of the null hypothesis that there are crossings or alternative orderings.
+Returns the decision for rejection of the null hypothesis that there are crossings or alternative orderings among the survival functions.
 }
 \examples{
 library(survELtest)
