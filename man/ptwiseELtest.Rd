@@ -18,42 +18,40 @@ ptwiseELtest(
 )
 }
 \arguments{
-\item{formula}{a formula object with a \code{Surv} object as the response on the left of the \code{~} operator 
-and the grouping variable as the term on the right. The \code{Surv} object involves two variables: the 
-observed survival and censoring times, and the censoring indicator (it takes a value of \eqn{1} if the 
-observed time is uncensored and \eqn{0} otherwise). The grouping variable takes different values for different groups.}
+\item{formula}{a formula object with a \code{Surv} object as the response on the left of the \code{~} operator and 
+the grouping variable as the term on the right. The \code{Surv} object involves two variables: the observed survival 
+and censoring times, and the censoring indicator, which takes a value of \eqn{1} if the observed time is uncensored 
+and \eqn{0} otherwise. The grouping variable takes different values for different groups.}
 
-\item{data}{an optional data frame containing the variables in the \code{formula}: the observed survival and censoring 
-times, the censoring indicator, and the grouping variable. If not found in \code{data}, the variables in the \code{formula} 
-should be already defined by the user or in attached \code{R} objects. The default is the data frame with 3 columns of 
-variables taken from the \code{formula}: column 1 contains the observed survival and censoring times, column 2 the 
-censoring indicator, and column 3 the grouping variable.}
+\item{data}{an optional data frame containing the variables in the \code{formula}: the observed survival and censoring times,
+the censoring indicator, and the grouping variable. If not found in \code{data}, the variables in the \code{formula} should 
+be already defined by the user or in attached \code{R} objects. The default is the data frame with three columns of 
+variables taken from the formula: column 1 contains the observed survival and censoring times, column 2 the censoring 
+indicator, and column 3 the grouping variable.}
 
 \item{group_order}{a \eqn{k}-vector containing the values of the grouping variable, with the \eqn{j}-th element being the group
 hypothesized to have the \eqn{j}-th highest survival rates, \eqn{j=1,\ldots,k}. The default is the vector of sorted grouping variables.}
 
-\item{t1}{the first endpoint of a prespecified time interval, if any,
-during which the comparison of the survival functions is restricted to.
+\item{t1}{the first endpoint of a prespecified time interval, if any, to which the comparison of the survival functions is restricted. 
 The default value is \eqn{0}.}
 
-\item{t2}{the second endpoint of a prespecified time interval, if any,
-during which the comparison of the survival functions is restricted to.
-The default value is \eqn{\infty}.}
+\item{t2}{the second endpoint of a prespecified time interval, if any, to which the comparison of the survival 
+functions is restricted. The default value is \eqn{\infty}.}
 
 \item{sided}{\eqn{2} if two-sided test, and \eqn{1} if one-sided test. The default value is \eqn{2}.}
 
-\item{nboot}{the number of bootstrap replications in calculating critical values for the tests.
-The defualt value is \eqn{1000}.}
+\item{nboot}{the number of bootstrap replications in calculating critical values for the tests. 
+The default value is \eqn{1000}.}
 
 \item{alpha}{the pre-specified significance level of the tests. The default value is \eqn{0.05}.}
 
-\item{seed}{the seed of random number generation in \code{R} for generating bootstrap samples
-needed to calculate critical values for the tests. The default value is \eqn{1011}.}
+\item{seed}{the seed for the random number generator in \code{R}, for generating bootstrap samples needed 
+to calculate the critical values for the tests. The default value is \eqn{1011}.}
 
-\item{nlimit}{a number used to calculate \code{nsplit=} \eqn{m}\code{/nlimit}, the number of parts
-we split the calculation of the \code{nboot} bootstrap replications into.
-This can make computation faster when the number of time points \eqn{m} is too large.
-The default value for \code{nlimit} is \eqn{200}.}
+\item{nlimit}{a number used to calculate \code{nsplit=} \eqn{m}\code{/nlimit}, the number of 
+parts into which the calculation of the \code{nboot} bootstrap replications is split. 
+The use of this variable can make computation faster when the number of time points \eqn{m} is large. 
+The default value for \code{nlimit} is 200.}
 }
 \value{
 \code{ptwiseELtest} returns a \code{ptwiseELtest} object, a list with 12 elements:
