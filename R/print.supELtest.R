@@ -1,4 +1,4 @@
-#' Print an supELtest object
+#' Print a supELtest object
 #' 
 #' @description Print the maximally selected EL statistics and the p-value of the test.
 #' @name print.supELtest
