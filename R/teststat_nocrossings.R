@@ -48,4 +48,3 @@ teststat_nocrossings <- function(alpha, k, M_vec, iter, iter_without_last, fit, 
   
   return(list(test_nocross = test_nocross))
 }
-
