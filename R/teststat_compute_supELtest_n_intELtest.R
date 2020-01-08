@@ -23,4 +23,3 @@ teststat_compute_supELtest_n_intELtest <- function(sided, k, M_vec, iter, iter_w
   
   return(list(teststat_pre = teststat_pre, suptest = suptest, inttest_dF = inttest_dF, inttest_dbarNt = inttest_dbarNt, inttest_dt = inttest_dt))
 }
-
