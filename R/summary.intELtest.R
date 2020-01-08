@@ -49,4 +49,3 @@ summary.intELtest = function(object, digits = max(3L, getOption("digits") - 3L),
   }
   invisible(result)
 }
-
