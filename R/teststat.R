@@ -41,4 +41,3 @@ teststat = function(formula, data, group_order, t1, t2, sided, nboot, alpha, det
     ))
   } else return (list(neg2ELratio_at_ts = list_compute_supELtest_n_intELtest$teststat_pre))
 }
-
