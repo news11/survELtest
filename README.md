@@ -1,5 +1,5 @@
 # survELtest  <img src='man/figures/logo_new.png' align="right" width = "280" height="300" />
-This package contains routines for computing the one-sided/two-sided integrated/maximally selected EL statistics for simultaneous testing, the one-sided/two-sided EL tests for pointwise testing, and an initial test that precedes one-sided testing to exclude the possibility of crossings or alternative orderings among the survival functions.
+Computing the one-sided/two-sided integrated/maximally selected EL statistics for simultaneous testing, the one-sided/two-sided EL tests for pointwise testing, and an initial test that precedes one-sided testing to exclude the possibility of crossings or alternative orderings among the survival functions.
 ### Data Frame
 - `hepatitis` Severe alcoholic hepatitis data
 - `threearm` Time to first remission data
